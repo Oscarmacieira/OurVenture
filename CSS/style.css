@@ -1,0 +1,533 @@
+@font-face {
+    font-family: "Gemunu-Regular";
+    src: url(Gemunu_Libre/GemunuLibre-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Gemunu-ExtraLight";
+    src: url(Gemunu_Libre/GemunuLibre-ExtraLight.ttf);
+  }
+  
+  @font-face {
+    font-family: "Gemunu";
+    src: url(Gemunu_Libre/GemunuLibre-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: "Gemunu-SemiBold";
+    src: url(Gemunu_Libre/GemunuLibre-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Gemunu-Bold";
+    src: url(Gemunu_Libre/GemunuLibre-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Gemunu-ExtraBold";
+    src: url(Gemunu_Libre/GemunuLibre-ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: "Gemunu-Light";
+    src: url(Gemunu_Libre/GemunuLibre-Light.ttf);
+  }
+
+
+
+
+
+  /* Medium Devices*/
+
+@media(min-width:768px){
+  .news-input{width:60%;}
+  #giflogo1{width: 15vh;}
+  #gifLogo2{width: 20vh;}
+
+
+
+}
+
+@media(max-width:768px){
+  #giflogo1{width: 10vh;}
+
+  .news-input{width:70%;}
+  #gifLogo2{width: 15vh;}
+  #sectionpb{font-size: 2vh;}
+
+}
+
+
+html{
+scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(20 20 22);
+}
+
+
+/*Font size*/
+#titre1{font-size: 4vh;}
+#p1{font-size: 2.5vh; font-family: "Gemunu";}
+#textNews{font-size: 3vh;}
+#btn1,#btn2,.webdesigntuts-workshop-btnSol1,.webdesigntuts-workshop-btnSol2{font-size: 2.5vh;}
+.h3 {font-size: 3vh;}
+.card-text{font-size: 2.5vh;text-decoration: none; font-family: "Gemunu"}
+.titreSection {color: rgba(245, 245, 245, 0.72);font-family: "Gemunu-SemiBold"; font-size: 4vh;}
+.lead{font-size: 2.5vh;color: whitesmoke;font-family: "Gemunu"}
+.accordion-button {font-size: 3vh;}
+.accordion-body {font-size: 2.5vh;font-family: "Gemunu";}
+
+/* Header */
+
+#titreHeader {
+  font-family: "Gemunu";
+}
+
+#menuNav{
+  background-color: rgb(20 20 22);
+}
+
+.nav-link {
+  font-family: "Gemunu-Regular";
+}
+
+.nav-item {
+  justify-content:left;
+}
+
+#burger {
+  border: none;
+}
+.navbar-toggler{
+  border: none;
+}
+
+/* Premiere section */
+
+#section1 {
+  background-color: rgb(20 20 22);
+}
+
+
+
+#titre1{
+  font-family: "Gemunu-Bold";
+}
+
+
+
+#btn1:hover span {
+  display: none;
+}
+
+#btn1:hover:before {
+  content: "Coming Soon!";
+}
+
+/* Subscribe */
+
+#sectionNews{
+  background-color: rgb(20 20 22);
+  border-top: dotted rgba(255, 255, 255, 0.068) 2px;
+
+}
+
+
+
+
+#textNews{
+    font-family: "Gemunu-ExtraLight";
+  color: rgb(243, 239, 232);
+}
+
+
+
+
+/*                             Barre d'envoi mail */
+
+ .webdesigntuts-workshop input {
+	background: #222;	
+	background: linear-gradient(#333, #222);	
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 2px 0 #000;
+	color: #888;
+	display: block;
+	float: left;
+	font-family: "Gemunu";
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+}      
+
+.webdesigntuts-workshop input:focus  {
+	animation: glowgreen 800ms ease-out infinite alternate;
+	background: #222922;
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+  color: #888;
+}
+
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+ color: #efe;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+ color: #efe;
+}
+
+
+/*                            Bouton SEND */
+
+.webdesigntuts-workshop button {
+ background: #222;
+ background: linear-gradient(#333, #222);
+ box-sizing: border-box;
+ border: 1px solid #444;
+ border-left-color: #000;
+ border-radius: 0 5px 5px 0;
+ box-shadow: 0 2px 0 #000;
+ color: #fff;
+ display: block;
+ float: left;
+ font-family: "Gemunu";
+ font-size: 13px;
+ font-weight: 400;
+ height: 40px;
+ line-height: 40px;
+ margin: 0;
+ padding: 0;
+ position: relative;
+ text-shadow: 0 -1px 0 #000;
+ width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+ background: #292929;
+ background: linear-gradient(#393939, #292929);
+ color: #5f5;
+ outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+ background: #292929;
+ background: linear-gradient(#393939, #292929);
+ box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+ top: 1px;
+}
+
+
+
+/* Listes Problèmes */
+
+
+#sectionPb{
+  background-color: rgb(20 20 22);
+  border-top: dotted rgba(255, 255, 255, 0.068) 2px;
+  border-bottom: dotted rgba(255, 255, 255, 0.068) 2px;
+
+}
+
+
+.card{
+background-color:#ffffff07;
+ border-radius: 40px;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.562);
+ margin: 10px;
+ color: white;
+ padding: 3vh;
+ text-decoration: none;
+}
+
+.card:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.card-title{
+  font-family: "Gemunu-Bold";
+}
+
+
+
+
+/*  MarketOverview */
+
+
+
+
+
+#sectionMarket{
+  border-bottom: dotted rgba(255, 255, 255, 0.068) 2px;
+
+}
+
+
+
+
+
+
+
+
+
+/*  Solutions */
+
+
+
+
+.titreSol1{
+  font-family: "Gemunu-ExtraBold";
+  color: #fe7200ce;
+  font-size: 3vh;
+}
+
+.titreSol2{
+  font-family: "Gemunu-ExtraBold";
+  color: #02af7e;
+  font-size: 3vh;
+
+}
+
+
+
+
+
+
+
+
+/*  FaQ */
+
+#question{
+  border-top: dotted rgba(255, 255, 255, 0.068) 2px;
+
+}
+
+
+
+.accordion-button,.accordion-button:not(.collapsed){
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  color: whitesmoke;
+  border: none;
+  padding: 2vh;
+  font-family: "Gemunu-Bold";
+  width: 100%;
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-flush .accordion-item {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.123);
+  background-color:transparent;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+.accordion-collapse{
+  color: whitesmoke;
+}
+
+
+#map{
+  border-radius: 50px;
+  opacity: 0.5;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(-180deg);
+  background-image: url(https://cdn-icons.flaticon.com/png/512/1633/premium/1633716.png?token=exp=1633698627~hmac=ae2359a5d6425be742e4f2aef033d629);
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 3vh;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform .2s ease-in-out;
+  background-color: #fffefe66;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+/*  Notion et Discord */
+
+#sectionCard2{
+  background-color: rgb(20 20 22);
+  border-top: dotted rgba(255, 255, 255, 0.068) 2px;
+
+
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+  background-color: rgba(255, 255, 255, 0.068);
+  color:rgba(255, 255, 255, 0.068); ;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+
+#gifLogo2,#giflogo1{
+  border-radius: 1500px;
+  border: solid 1px rgb(221, 113, 63);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.562);
+
+  
+  
+}
+
+a i {
+  font-size: 2vh;
+}
+#footerLink{
+  color: rgba(255, 255, 255, 0.603);
+  font-family: "Gemunu-Regular";
+  font-size: 2vh;
+}
+
+#borderLeft2{
+  border-right: 0.5px solid  rgb(221, 113, 63);
+  border-left: 0.5px solid  	#393;
+  ;
+}
+
+#borderLeft{
+  border-left: 0.5px solid  	#393;
+  ;
+}
+
+#borderLeft3{
+  border-right: 0.5px solid  rgb(221, 113, 63);
+  ;
+}
+
+#borderLeft , #borderLeft2,#borderLeft3{
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.048);
+  padding:3px;
+}
+
+#iconeSpace1,#iconeSpace2,#iconeSpace3 {
+  color:rgba(255, 255, 255, 0.068);
+  outline: none;
+} 
+
+
+/*  Section photo integre footer*/
+
+#sectionPhotoIntegre{
+  background-image: url("../img/ecrantrading.jpeg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+
+
+/* Tiret rouge autour du bouton */
+
+button:enabled{
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Design Bouton Background */
+
+.webdesigntuts-workshop-btnSol1,.webdesigntuts-workshop-btnSol2,.webdesigntuts-workshop-btn,#btn2,#btn1{
+   color: rgb(116, 116, 116);
+   background-color: rgba(24, 24, 24, 0);
+   border-radius: 10px;
+   border: none;
+   padding: 1.5vh;
+   font-family: "Gemunu-ExtraBold";
+   text-decoration: none;
+}
+
+/* Effet Rouge glow  hover */
+
+.webdesigntuts-workshop-btnSol1:hover,#btn2:hover,#q2:hover,#q4:hover,#cardDiscord:hover,#borderLeft2:hover{
+	animation: glowred 800ms ease-out infinite alternate;
+  border-color: rgb(153, 97, 51);
+  border: 0.5px solid rgb(206, 135, 42) ;
+	box-shadow: 0 0 1px rgba(255, 153, 0, 0.2), inset 0 0 1px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+
+}
+
+/* Effet Vert glow  hover */
+
+.webdesigntuts-workshop-btnSol2:hover,
+.webdesigntuts-workshop-btn:hover,
+#q1:hover,#q3:hover,#q5:hover,#btn1:hover,#cardNotion:hover,
+#borderLeft:hover ,#borderLeft3:hover{
+	animation: glowgreen 800ms ease-out infinite alternate;
+	border-color: #393;
+  border: 0.5px solid #393 ;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+
+@keyframes glowgreen {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(7, 7, 7, 0.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 10px rgba(0,255,0,.6), inset 0 0 10px rgba(5, 5, 5, 0.4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glowred {
+  0% {
+  border-color: rgb(153, 88, 51);
+  box-shadow: 0 0 5px rgba(255, 72, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1), 0 2px 0 #000;
+  }	
+  100% {
+  border-color: rgb(255, 138, 102);
+  box-shadow: 0 0 10px rgba(255, 81, 0, 0.6), inset 0 0 10px rgba(0, 0, 0, 0.4), 0 2px 0 #000;
+  }
+}
